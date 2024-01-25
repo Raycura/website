@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Icons for features section
 function Option({text,icon}) {
   return (
     <>
