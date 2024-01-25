@@ -27,6 +27,8 @@ function Footer() {
                     <a href="#" className='text-white underline-offset-2 px-5 hover:underline font-medium'>Privacy Policy</a>
                 </div>
             </div>
+            <p>tom
+            </p>
         </div>
     </>
   )
