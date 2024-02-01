@@ -15,11 +15,11 @@ import { BsBuildingsFill } from "react-icons/bs";
 function Navbar() {
   return (
     <>
-      <div className="md:px-16 sm:px-2 h-16 flex justify-between items-center bg-white  w-full z-50">
+      <div className="md:px-16 px-2 h-16 flex justify-between items-center bg-white  w-full z-50">
         <div>
           <img src={Logo} alt="" className='w-50 h-50' width={150} />
         </div>
-        <div className='md:hidden'>
+        <div className='lg:hidden'>
           <FaBars className='text-2xl text-[#33B3A6]' />
         </div>
         <div className='hidden fixed inset-0 bg-[rgba(0,0,0,0.7)] z-50'></div>
@@ -70,7 +70,7 @@ function Navbar() {
           </div>
         </div>
         {/* Mobile navbar */}
-        <div className='hidden md:block'>
+        <div className='hidden lg:block'>
           <a href="#" className='p-5 text-[#33B3A6] uppercase font-semibold text-lg'>Home</a>
           <a href="#" className='p-5 text-[#33B3A6] uppercase font-semibold text-lg'>Ortho</a>
           <a href="#" className='p-5 bg-[#33B3A6] text-white uppercase font-semibold text-lg'>Physio</a>
